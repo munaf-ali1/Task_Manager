@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Adjust base URL for production
+  //baseURL: 'http://localhost:5000/api', // Adjust base URL for production 
+  baseURL: 'https://task-manager-gxzo.onrender.com/api', // Adjust base URL for production
 });
 
 // Add a request interceptor to add the JWT token
